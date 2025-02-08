@@ -67,7 +67,7 @@ Modify `config.json` to specify Prometheus URL, query time ranges, and metrics:
 Run Promaiden with:
 
 ```sh
-python promqueen.py
+python promaiden.py
 ```
 
 This will:
@@ -81,7 +81,7 @@ This will:
 Logs are printed to the console and can be redirected to a file:
 
 ```sh
-python promqueen.py > promqueen.log 2>&1
+python promaiden.py > promaiden.log 2>&1
 ```
 
 ## GitHub Repository
