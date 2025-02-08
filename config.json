@@ -1,0 +1,12 @@
+{
+  "service_name": "Example Service",
+  "prometheus_url": "http://localhost:9090/api/v1/query",
+  "start_time": "now-6h",
+  "end_time": "now",
+  "metrics": [
+    "up",
+    "process_uptime_seconds",
+    "sum(rate(node_cpu_seconds_total[5m])) by (mode)",
+    "node_memory_Available_bytes"
+  ]
+}
