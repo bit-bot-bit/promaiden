@@ -1,5 +1,5 @@
-![Promaiden Logo](assets/logo.png)
 # Promaiden
+![Promaiden Logo](assets/logo.png)
 
 ## Overview
 
