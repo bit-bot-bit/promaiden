@@ -1,3 +1,4 @@
+![Promaiden Logo](assets/logo.png)
 # Promaiden
 
 ## Overview
