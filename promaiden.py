@@ -1,4 +1,5 @@
 import logging
+from datetime import datetime
 from modules.config_loader import load_config
 from modules.prometheus_client import list_available_metrics, query_prometheus
 from modules.chatgpt_client import analyze_with_chatgpt
@@ -28,3 +29,5 @@ if __name__ == "__main__":
         query_function=query_prometheus,
         analyze_function=analyze_with_chatgpt
     )
+
+logging.info("Promaiden has successfully completed the report generation.")
